@@ -1,0 +1,42 @@
+# Archivos temporales de DataFlex
+*.lock
+*.exe
+*.dll
+*.obj
+*.prn
+*.log
+*.bak
+*.tmp
+
+# Archivos temporales de Windows
+Thumbs.db
+Desktop.ini
+
+# Configuraciones locales y credenciales
+*.ws
+*.ini
+*.int
+
+# Archivos de bases de datos locales
+*.dat
+*.hdr
+*.vld
+*.k*
+# Paquetes de DataFlex
+DfPkg/
+
+# Archivos generados
+*.dbg
+*.cch
+*.dfcache.json
+*.dep
+
+# Claves privadas
+AppSrc/LoginEncryptionKey.inc
+
+# Configuracion local
+IdeSrc/Workspace.loc
+
+# Listados temporales
+archivos_git.txt
+!Data/*.int
