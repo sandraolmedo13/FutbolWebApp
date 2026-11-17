@@ -10,6 +10,7 @@ Use cWebForm.pkg
 
 Use cligaDataDictionary.dd
 Use cequipoDataDictionary.dd
+Use SelectLiga.wo
 
 Object oZoomEquipo is a cWebView
     Set piColumnCount to 12
@@ -51,8 +52,7 @@ Object oZoomEquipo is a cWebView
             Set psLabel to "Liga"
             Set pbPromptButton to True
 
-// ToDo: Fill in the from-child parent Select view object name for navigate forward
-//            WebRegisterPath ntNavigateForward oSelectView
+WebRegisterPath ntNavigateForward oSelectLiga
 
             Procedure OnPrompt
                 Send NavigatePath
